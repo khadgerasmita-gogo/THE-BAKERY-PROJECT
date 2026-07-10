@@ -1,0 +1,367 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+.nav-bar{
+    width:100%;
+    padding:2% 6%;
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#ffffff;
+}
+
+.nav-bar .nav-links{
+    flex:1;
+    text-align:right;
+}
+
+.nav-bar .nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:10px 15px;
+    position:relative;
+}
+.nav-bar .nav-links ul li a:hover{
+    background-color:red;
+}
+
+.nav-bar .nav-links ul li a{
+    color:black;
+    font-size:1rem;
+}
+
+/*body section */
+.section-1{
+    background-color:#7dbeba;
+    height:693px;
+}
+
+
+.section-1 .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100%;
+    padding:80px 0 30px;
+
+}
+
+.section-1 .container img{
+    padding:0 15px;
+    width:540px;
+    height:583px;
+}
+
+.section1 .section1-description{
+    margin-top:120px;
+}
+
+.section-1 .title{
+    
+}
+
+.section-1 .sub-title{
+ 
+}
+
+.section-2{
+    height:585.92px;
+    background-color:white;
+    padding:80px 0px;
+    display:flex;
+    justify-content:center;
+    
+}
+.section-2 .container {
+    width:60vw;
+    height:100%;
+    background-color:white;
+    display:flex;
+    /* align-items:center; */
+    justify-content:center;
+    margin:0 695px;
+    padding: 0 15px;
+    
+    
+}
+.section-2 .container .video{
+    width:540px;
+    height:425.25px;
+    padding:0 15px;
+    background-color:#ed1e30;
+}
+.section-2 .container .video img{
+    object-fit: contain;
+    position:center;
+    width:510px;
+}
+.section-2 .container .discription{
+    padding:0 15px;
+    width: 540px;
+    height: 425.25px;
+}
+
+.section-2 .container .discription .title{
+    margin:16px 0 28px 0;
+    font-family:"Montserrat",sans-serif;
+    font-size:40px;
+    color:#333333;
+}
+.section-2 .container .discription .sub-title{
+    padding-left:22.4px;
+    margin-bottom:22.4px;
+    font-size:22.4px;
+    font-weight:400;
+    font-family:"Montserrat",sans-serif;
+    border-left:4px solid #02c5e1;
+    color:#333333;
+    line-height:25px;
+    text-transform: capitalize;
+}
+.section-2 .container .discription .discription{
+    font-size:15px;
+    font-family:"Open Sans",sans-serif;
+    line-height:30px;
+    padding:0;
+    color:#666666;
+    letter-spacing:1px;
+}
+
+
+/*section 2 completed*/
+
+/*Starting of section 3*/
+
+.section-3{
+    background-color:purple;
+    height:640.53px;
+    justify-content: center;
+}
+ 
+.section-3 .about{
+    background-color:#141621;
+    height:100%;
+    padding:80px 0;
+    display:flex;
+    
+
+}
+
+.section-3 .about .container{
+    background-color: #141621;
+    height:100%;
+    margin:0 300px;
+    display:flex;
+    flex-direction:column;
+    padding:0 15px;
+    
+}
+
+.section-3 .about .container .div1{
+    width:100%;
+    background-color:transparent;
+    text-align:center;
+    font-family:"Montserrat",sans-serif ;
+    font-size:40px;
+    font-weight:lighter;
+    margin-bottom:40px;
+    color:white;
+}
+.section-3 .about .container .div2{
+    display:flex;
+    flex:1;
+}
+
+.section-3 .about .container .div3,.section-3 .about .container .div4{
+    font-family: "Montserrat", sans-serif;
+    padding: 0 15px;
+}
+
+.section-3 .about .container .div5,.section-3 .about .container .div13{
+    font-family: "Montserrat", sans-serif;
+    line-height:25px;
+}
+
+.section-3 .about .container .div5 h4 ,.section-3 .about .container .div13 h4{
+    font-family: "Montserrat", sans-serif;
+    margin:28.8px 0 14.4px;
+    font-size:28.8px;
+    color:white;
+}
+
+.section-3 .about .container .div5 p ,.section-3 .about .container .div13 p{
+    font-family: "Montserrat", sans-serif;
+    margin-top:15px;
+    font-size: 16px;
+    color:#A5A5A5;
+}
+
+.section-3 .about .container .div6 ,.section-3 .about .container .div9{
+    display:flex;
+    margin-top:50px
+}
+
+.section-3 .about .container .div7 ,.section-3 .about .container .div12,.section-3 .about .container .div7,
+.section-3 .about .container .div11{
+    padding:0 15px;
+}
+
+.section-3 .about .container .div7 i,
+.section-3 .about .container .div8 i,.section-3 .about .container .div12 i,
+.section-3 .about .container .div11 i{
+    font-size:40px;
+    margin-bottom:18.5px;
+    color:#02c5e1;
+}
+
+.section-3 .about .container .div7 h5,
+.section-3 .about .container .div8 h5,.section-3 .about .container .div12 h5,
+.section-3 .about .container .div11 h5{
+    font-size:20.8px;
+    margin-bottom:14.56px;
+    color:white;
+}
+
+.section-3 .about .container .div7 p,
+.section-3 .about .container .div8 p,.section-3 .about .container .div11 p,
+.section-3 .about .container .div12 p{
+    font-size:15px;
+    margin-top:15px;
+    color:#A5A5A5;
+    font-family:"Open Sans",
+        sans-serif;
+    line-height:20px;
+    letter-spacing:1px;
+}
+
+
+
+
+
+/*section 3 completed*/
+
+/*Starting of section 4*/
+
+
+.section-4{
+    background-color:grey;
+    height:1002.44px;
+}
+
+.section-4 .cakes{
+    width:100%;
+    height:100%;
+    justify-content:center;
+    padding:80px 0;
+    background-color:white;
+}
+
+.section-4 .cakes .container{
+    margin:0 155px;
+    padding:0 15px;
+}
+
+.section-4 .cakes .container>h3{
+    width:100%;
+    height:44px;
+    text-align: center;
+    margin-bottom:40px;
+    font-size:40px;
+    font-family:"Montserrat",
+    sans-serif;
+    font-weight:200;
+}
+
+.section-4 .cakes .container .div2{
+    width:380px;
+    height:363.22px;
+    background-color:white;
+    padding:0 0 15px 0;
+    box-shadow:1px 2px 5px black;
+    min-width:380px;
+    min-height:363.22px;
+    flex:px;
+    
+}
+
+.section-4 .cakes .container .div2 .div3{
+    width:100%;
+    height:262.5px;
+    overflow:hidden;
+}
+
+.section-4 .cakes .container .div2 .div3 img{
+    width:100%;
+    height:auto;
+}
+
+.section-4 .cakes .container .div2 .div4 {
+    height:1fr;
+    background-color: white;
+}
+.section-4 .cakes .container .div2 .div4 h3 {
+    margin-top:23px;
+    text-align:center;
+    font-style:"Montserrat",
+    sans-serif;
+    font-weight: 200;
+}
+.section-4 .cakes .container .div2 .div4 p{
+   margin-top:7.5px 0;
+   text-align:center;
+   font-style: "Montserrat",
+   sans-serif;
+   font-weight: 200;
+   color:#333;
+}
+
+.section-4 .cakes .container .div1{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px
+}
+
+/*section 4 completed*/
+
+/*Starting of section 5*/
+
+.section-5{
+    background-color:bisque;
+    height:366.66px;
+}
+
+.section-5 .peoples{
+    background-color:pink;
+    height:100%;
+    width:100%;
+}
+
+
+
+
+
+
+.section-6{
+    background-color:rgb(252, 163, 55);
+    height:604px;
+}
+.section-7{
+    background-color:rgb(99, 85, 69);
+    height:259.22px;
+}
+.section-8{
+    background-color:rgb(189, 110, 19);
+    height:431.5px;
+}
+
+
